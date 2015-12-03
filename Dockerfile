@@ -6,8 +6,8 @@ MAINTAINER Nane Kratzke
 RUN apt-get update
 RUN apt-get upgrade -y
 
-# Install mysql client and server
-RUN apt-get -y install mysql-client mysql-server curl
+# Install mysql 5.6 client and server
+RUN apt-get -y install mysql-client mysql-server-5.6 curl
 
 # Enable remote access (default is localhost only, we change this
 # otherwise our database would not be reachable from outside the container)

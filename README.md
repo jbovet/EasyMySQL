@@ -2,9 +2,9 @@
 
 [docker]: https://dev.mysql.com/downloads/workbench/
 
-__A docker container to provide MySQL databases on the fly.__
+__A docker container to provide MySQL 5.6 databases on the fly.__
 
-This Dockerfile is used to provide MySQL databases in a frictionless
+This Dockerfile is used to provide MySQL 5.6  databases in a frictionless
 but flexible way. The requirement was to provide different
 MySQL based relational databases for computer science students
 for educational purposes (database/webtechnology lectures and labs).
@@ -13,7 +13,7 @@ for similar purposes in complete different domains.
 
 Whenever you have to
 
-- provide data as a relational database via MySQL
+- provide data as a relational database via MySQL 5.6 
 - with user based access requirement
 - for demonstrational purposes (throw-away database)
 - in an ad hoc way

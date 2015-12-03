@@ -4,7 +4,7 @@
 echo "Creating user $user for databases loaded from $url"
 
 # Import database if provided via 'docker run --env url="http:/ex.org/db.sql"'
-echo "Adding data into MySQL"
+echo "Adding data into MySQL 5.6 "
 /usr/sbin/mysqld &
 sleep 5
 curl $url -o import.sql

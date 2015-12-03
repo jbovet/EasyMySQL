@@ -5,7 +5,7 @@
 __A docker container to provide MySQL 5.6 databases on the fly.__
 
 This Dockerfile is used to provide MySQL 5.6  databases in a frictionless
-but flexible way. The requirement was to provide different
+but flexible way. The requirement was bto provide different
 MySQL based relational databases for computer science students
 for educational purposes (database/webtechnology lectures and labs).
 Nevertheless, the approach can be used
@@ -44,7 +44,7 @@ behind the scenes for you (which is my preferred way in case of github provided
   Dockerfiles):
 
 ```Shell
-docker build -t mysqldb github.com/nkratzke/easymysql
+docker build -t mysqldb github.com/jbovet/easymysql
 ```
 
 Now you have an image named *mysqldb* on your system, capable to
